@@ -11246,7 +11246,8 @@ header.masthead .site-heading .h1 {
     font-size: 2.25rem;
   }
 }
-#mensajeria{
-  display: flexbox;
-  align-items: center;
+.mensajeria {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 2rem;
 }
